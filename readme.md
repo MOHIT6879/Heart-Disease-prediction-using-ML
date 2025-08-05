@@ -90,12 +90,22 @@ Each model's performance is visualized and printed clearly.
 
 📈 Example Output
 
-Logistic Regression Accuracy: 0.8689
-✅ Saved model as logistic_regression.pkl
+📌 Model: Logistic Regression
+Accuracy: 0.8403361344537815
+Precision: 0.872
+Recall: 0.8320610687022901
+F1 Score: 0.8515625
+ROC AUC Score: 0.8966255261468217
 
-Random Forest Accuracy: 0.9016
-✅ Saved model as random_forest.pkl
-...
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.81      0.85      0.83       107
+           1       0.87      0.83      0.85       131
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.84      0.84       238
+weighted avg       0.84      0.84      0.84       238
 Each model’s performance includes plots like:
 
 Confusion matrix heatmap
